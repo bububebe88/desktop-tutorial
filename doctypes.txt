@@ -1,0 +1,45 @@
+ТИПИ ТА ВЕРСІЇ HTML У DOCTYPE
+
+DOCTYPE — це оголошення типу документа, яке розміщується на початку HTML-файлу. Воно допомагає браузеру визначити режим відображення вебсторінки.
+
+1. HTML 2.0
+Приклад: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+Це одна з перших стандартизованих версій HTML, яка підтримувала базові можливості вебсторінок.
+
+2. HTML 3.2
+Приклад: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+Ця версія розширила можливості HTML, зокрема підтримку таблиць та оформлення сторінок.
+
+3. HTML 4.01 Strict
+Приклад: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+Цей тип передбачав суворіші правила розмітки та не допускав низки застарілих елементів.
+
+4. HTML 4.01 Transitional
+Приклад: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+Цей варіант дозволяв використовувати деякі застарілі елементи й атрибути для полегшення переходу до новіших стандартів.
+
+5. HTML 4.01 Frameset
+Приклад: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+Цей тип використовувався в документах, які поділяли вікно браузера на окремі фрейми.
+
+6. XHTML 1.0 Strict
+Приклад: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+Цей варіант XHTML вимагав дотримання суворих правил синтаксису XML.
+
+7. XHTML 1.0 Transitional
+Приклад: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Цей варіант допускав деякі елементи й атрибути, які використовувалися в старих вебсторінках.
+
+8. HTML5
+Приклад: <!DOCTYPE html>
+У сучасному HTML використовується коротке оголошення DOCTYPE, яке вмикає стандартний режим відображення сторінки.
+
+ВИСНОВОК
+
+У старих версіях HTML оголошення DOCTYPE були довгими та містили відомості про конкретний стандарт. У сучасному HTML достатньо записати <!DOCTYPE html>. Це оголошення зазвичай розміщується першим у HTML-документі.
+
+ДЖЕРЕЛА
+
+W3C: https://www.w3.org/TR/html4/
+MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTML
+W3Schools: https://www.w3schools.com/TAGs/ref_html_dtd.asp
